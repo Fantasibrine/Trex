@@ -182,7 +182,10 @@ function draw() {
 
   fill("grey");
   text("Made by Vedant", 500, 170);
-  text("'SPACE' For Jump, the longer you press the higher you jump", 125, 75)
+  
+  if(gameMode === "Manual"){
+     text("'SPACE' For Jump, the longer you press the higher you jump", 125, 75)
+  }
 
   drawSprites();
 }
