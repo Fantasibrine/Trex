@@ -146,8 +146,8 @@ function draw() {
     }
 
     if(gameMode == "Auto"){
-      text("AI is on", 275, 100);
-      text("reload the site to play manually", 335, 65);
+      text("AI is on", 275, 75);
+      text("reload the site to play manually", 225, 100);
     }
   }
    else if (gameState === END) {
