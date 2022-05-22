@@ -43,7 +43,10 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 200);
+  var cnv = createCanvas(600,200)
+   var x = (windowWidth-width)/2
+   var y = (windowHeight-height)/2
+   cnv.position(x,y);
   
   trex = createSprite(50,180,20,50);
   trex.addAnimation("running", trex_running);
